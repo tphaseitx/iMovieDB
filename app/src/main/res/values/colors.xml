@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorBackgroundLightDark">#3c3f41</color>
+    <color name="colorBackgroundMediumDark">#313335</color>
+    <color name="colorBackgroundDark">#2b2b2b</color>
+
+    <color name="colorPrimary">#008eb2</color>
+    <color name="colorPrimaryDark">#007e9e</color>
+    <color name="colorPrimaryDarker">#006184</color>
+    <color name="colorPrimaryDarkest">#003142</color>
+    <color name="colorAccent">#00c951</color>
+    <color name="colorAccent2">#2ac39d</color>
+
+    <color name="colorPrimaryLight">#008eb2</color>
+    <color name="colorPrimaryDarkLight">#007e9e</color>
+    <color name="colorPrimaryDarkerLight">#006184</color>
+    <color name="colorPrimaryDarkestLight">#003142</color>
+    <color name="colorAccentLight">#00c951</color>
+    <color name="colorAccent2Light">#2ac39d</color>
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorOrange">#ffc563</color>
+    <color name="colorRed">#c32034</color>
+
+    <color name="colorLightYellow">#FFFFE5</color>
+    <color name="colorLightOrange">#FFFAE3</color>
+    <color name="colorLightOrange2">#ffcc80</color>
+    <color name="colorLightBlue">#E1F5FE</color>
+    <color name="colorLightBlue2">#B3E5FC</color>
+    <color name="colorLightGreen">#e8f6e9</color>
+    <color name="colorSand">#FDF5E6</color>
+
+    <color name="background_1">#F9FAFD</color>
+    <color name="background_2">#EBEEF5</color>
+    <color name="blue_background_1">#F2F6FF</color>
+    <color name="blue_background_2">#DEEAFF</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorDarkGray">#e2e2e2</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="semiTransparentWhite">#40FFFFFF</color>
+    <color name="colorOverlay">#12ffffff</color>
+
+    <color name="colorBackgroundApp">#F7F7F7</color>
+    <color name="colorPreferedBackgroundApp">#E8ECEF</color>
+    <color name="colorOrangeBiz">#ff6600</color>
+
+    <color name="colorSave">#287701</color>
+    <color name="colorEdit">#CC9D05</color>
+    <color name="colorDelete">#D42124</color>
+
+    <color name="colorGreen">#287701</color>
+    <color name="colorDefaultGreen">#2AC39D</color>
+    <color name="colorGreenBiz">#2AC39D</color>
+    <color name="colorRedBiz">#D42124</color>
+    <color name="colorRedLight">@android:color/holo_red_light</color>
+    <color name="colorPause">#CC9D05</color>
+    <color name="colorGray">#b4b4b4</color>
+    <color name="colorDarkerGray">#9d9d9d</color>
+    <color name="colorDarkDarkerGray">#707070</color>
+    <color name="colorLightGray">#f3f3f3</color>
+
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">#008eb2</color>
+</resources>

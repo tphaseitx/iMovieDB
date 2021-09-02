@@ -1,0 +1,126 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/sfpro_regular</item>
+
+        <item name="android:textColor">@color/colorDarkDarkerGray</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColorPrimary">@color/colorBlack</item>
+
+        <item name="android:textColorHint">@color/colorDarkDarkerGray</item>
+
+        <item name="colorButtonNormal">@color/colorAccent</item>
+
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+        <item name="android:editTextStyle">@style/EditTextViewStyle</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+
+        <item name="android:datePickerStyle">@style/DatePickerStyle</item>
+        <item name="android:datePickerDialogTheme">@style/DatePickerDialogTheme</item>
+        <item name="android:timePickerDialogTheme">@style/DatePickerDialogTheme</item>
+
+        <item name="android:actionBarStyle">@style/CustomActionBar</item>
+
+        <item name="android:statusBarColor">@color/colorPrimaryDarker</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDarker</item>
+
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:alertDialogTheme">@style/AlertDialogTheme</item>
+
+        <item name="android:editTextColor">@android:color/white</item>
+        <item name="android:textColorHint" tools:ignore="DuplicateDefinition">@android:color/white</item>
+    </style>
+
+    <style name="SearchViewStyle" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/sfpro_regular</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="TextLabel" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="AppSearchView" parent="Widget.AppCompat.SearchView" >
+        <item name="android:textSize">16sp</item>
+        <item name="android:editTextColor">@color/colorDefaultGreen</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat" />
+
+    <style name="CustomActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="HintStyle" parent="TextAppearance.Design.Hint">
+        <item name="android:textColorHint">@color/colorOrange</item>
+        <item name="android:textColor">@color/colorOrange</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/sfpro_regular</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="EditTextViewStyle" parent="android:Widget.EditText">
+        <item name="android:fontFamily">@font/sfpro_regular</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorBackgroundDark</item>
+    </style>
+
+    <style name="ButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">@font/sfpro_regular</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DatePickerStyle" parent="@android:style/Widget.Material.Light.DatePicker">
+        <item name="android:headerBackground">@color/colorAccent</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:editTextStyle">@color/colorAccent</item>
+        <item name="android:colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+    <style name="DatePickerDialogTheme" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:colorControlActivated">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomPicker" parent="@android:style/Widget.Material.Light" >
+        <item name="android:colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NavigationDrawerStyle">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/sfpro_regular</item>
+    </style>
+
+    <style name="TextInputLayoutHintTextsw600dp">
+        <item name="android:textSize">18sp</item></style>
+
+    <style name="TextInputLayoutHintTextsw720dp">
+        <item name="android:textSize">22sp</item>
+    </style>
+</resources>
